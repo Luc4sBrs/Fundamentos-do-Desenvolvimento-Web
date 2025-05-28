@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula</title>
+</head>
+
+<body>
+    <p>Tags de Texto</p>
+
+
+    <p>Títulos "H1" a "H6"</h1>
+    </p>
+    <h1>Título H1</h1>
+    <h2>Título H2</h2>
+    <h3>Título H3</h3>
+    <h4>Título H4</h4>
+    <h5>Título H5</h5>
+    <h6>Título H6</h6>
+
+    <p>Tipos de Texto</p>
+    <strong>Negrito</strong>
+    <br> <!-- Pular Linha -->
+    <em>Destaque</em>
+    <br>
+    <!-- Tags Reduzidas -->
+    <b>Negrito</b>
+    <br>
+    <i>Itálico</i>
+
+    <p>Hyper link -> Link</p>
+    <a href="https://WWW.youtube.com/@LucasBrayanDaSilva-x5w" target="_blank"> Meu canal no youtube - Nova Aba</a>
+    <!-- -Target e Blank, Fazem isso- Abre uma nova aba -->
+    <br>
+    <a href="https://WWW.youtube.com/@LucasBrayanDaSilva-x5w"> Meu canal no youtube</a>
+
+    <p>Tags de Lista</p>
+    <b>Lista Ordenada</b>
+    <ol> <!-- Para Listas Ordenadas-->
+        <li>Banana</li>
+        <li>Maçã</li>
+        <li>Manga</li>
+    </ol>
+    <b>Lista não Ordenada</b>
+    <ul> <!-- Para Listas não Ordenadas -->
+        <li>Macarrão</li>
+        <li>Pastel</li>
+        <li>Pizza</li>
+    </ul>
+    <b>Lista de Descrição</b>
+    <dl> <!-- Para Listas de Descrição -->
+        <dt><b>Comida:</b></dt>
+        <br>
+        <dd>Chocolate</dd>
+        <dd>Arroz e Feijão</dd>
+        <dd>Frutas</dd>
+        <br>
+        <dt><b>Produtos de Limpeza:</b></dt>
+        <br>
+        <dd>Detergente</dd>
+        <dd>Bombril</dd>
+        <dd>Desinfetante</dd>
+    </dl>
+    <br>
+
+    <!-- Comando para imagens é "img", tem como usar "width" para largura e "heigth" para altura
+    O "alt" é para casos raros ou para acessibilidade-->
+    <p><b>MAIOR CLUBE DO BRASIL</b></p>
+    <img src="C:\Users\lucas_brayan-silva\Desktop\Exercicios\HTML\São_Paulo_Futebol_Clube.png" width="200px"
+        height="250px" />
+    <img src="São_Paulo_Futebol_Clube.png" width="200px" height="250px" />
+
+    <figure>
+        <img src="São_Paulo_Futebol_Clube.png" width="200px" height="250px">
+        <!-- Colocar legendas em imagens -->
+        <figcaption>Logo São Paulo</figcaption>
+    </figure>
+
+    <!-- Tabelas -->
+
+    <p>Tabelas</p>
+    <table border="2"> <!-- "Border" é a borda e fica dentro do "table" -->
+        <caption> As Tabelas</caption>
+        <thead>
+            <tr>
+                <th>Coluna 1</th> <!-- "th" negrito, cabeça -->
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Item A1</td>
+                <td>Item A2</td>
+                <td>Item A3</td>
+            </tr>
+            <tr>
+                <td>Item B1</td>
+                <td>Item B2</td>
+                <td>Item B3</td>
+            </tr>
+            <tr>
+                <td>Item C1</td>
+                <td>Item C2</td>
+                <td>Item C3</td> <!-- "td" normal, corpo-->
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>
+                    Fim da Tabelas
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <!-- Formulários -->
+
+    <form>
+        <fieldset>
+            <legend>Formulário</legend>
+            <label for="nome">Nome: </label>
+            <input type="text" name="Nome" placeholder="Insira seu nome" required>
+            <br>
+            <label for="senha">Senha: </label>
+            <input type="password" name="Senha" placeholder="Insira sua senha" required>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="Email" placeholder="Insira seu email" required>
+            <br>
+            <label for="idade">Idade: </label>
+            <input type="number" name="Idade" placeholder="Insira sua idade" min="1" max="100">
+        </fieldset>
+        <fieldset>
+            <legend>Sugestão</legend>
+            <label for="opiniao">Sua opinião:</labelfor></label>
+            <textarea name="opiniao" placeholder="Digite sua opinião"></textarea>
+            <br>
+            <br>
+            <label for="avaliacao"> Nós Avalie:</label>
+            <select name="avaliacao">Selecione:
+                <option value="Otimo">Ótimo</option>
+                <option value="Bom">Bom</option>
+                <option value="Regular">Regular</option>
+                <option value="Ruim">Ruim</option>
+                <option value="Muito ruim">Muito ruim</option>
+                <option value="Prefiro nao responder">Prefiro não responder</option>
+            </select>
+
+            <p>Avalição com radio</p>
+            <!-- radio = input r pode ajudar -->
+            <label for="Bom">Bom </label>
+            <input type="radio" name="ava" value="Bom">
+            <label for="Regular">Regular </label>
+            <input type="radio" name="ava" value="Regular">
+            <label for="Ruim">Ruim </label>
+            <input type="radio" name="ava" value="Ruim">
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <!-- "button" cria um botão -->
+    </form>
+
+</body>
+
+</html>
