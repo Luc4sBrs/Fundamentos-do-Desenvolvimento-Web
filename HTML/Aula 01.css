@@ -16,7 +16,58 @@ h1{
     color: rgb(60, 45, 65);
 }
 .font{
-    color: black;/
-    font-size: 40px;
-    font-family: sans-serif;
+    color: black; /*muda a cor do texto*/
+    font-size: 40px; /*muda o tamanho da fonte*/
+    font-family: sans-serif; /*muda a fonte do texto*/
+    font-weight: 900; /*controle do negrito do texto*/
+    text-align: center; /*alinha o texto*/
+    text-decoration: underline; /*sublinhado*/
+}
+
+.box{
+    width: 100px;/*Largura*/
+    height: 100px;/*Altura*/
+    margin: 8px 5px 15px 4px;/*Margem*/
+    padding: 4px 15px 5px 8px ;/*Margem interna*/
+    border: blue 1px solid; /*solida*/ 
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.position{
+    position: absolute ; /*Posiciona de forma absoluta um elemento*/ 
+    right: 100px; /*Distancia*/
+    top: 100px;
+}
+.fundo{
+    background-color: rgb(32, 27, 27);/* cor de fundo */
+}
+
+.fundoImagem{
+    /* Adicionar imagem*/
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlxruvx7PqvE5IyW38HTP-jmVaUDDZK2hZdw&);
+    /* Diz que a imagem não vai repetir*/ 
+    background-repeat: no-repeat;
+    /*define o tamanho da imagem*/
+    background-size: 500px;
+    /* Define a posição da imagem*/
+    background-position: center;
+}
+
+.radius{
+    border-radius: 175px;
+}
+
+.sombra{
+    box-shadow: 5px 5px 20px 2px black;
+}
+
+.scroll{
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: visible;
 }

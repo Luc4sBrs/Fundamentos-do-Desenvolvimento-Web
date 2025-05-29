@@ -15,12 +15,20 @@ img{
 }
 dd{
     color: white;
+    text-align: justify;
+    background-color: rgb(53, 30, 30);
+    border: 0.3px solid;
 }
 dt{
     color: white;
+    text-align: center;
+}
+tr{
+    text-align: center;
 }
 th{
     color: white;
+    text-align: center;
 }
 li{
     color: white;
