@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+    color: rgb(58, 77, 158);
+    font-family: 'Trebuchet MS';
+}
+
+p{
+    color: rgb(2, 97, 175);
+    text-align: justify;
+    border-radius: 5px; height: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+h2{
+    color: rgb(1, 126, 228);
+    border-radius: 5px; height: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+.imag1{
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;  
+}
